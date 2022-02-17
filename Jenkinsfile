@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Hello World',
+                echo 'Hello World'
                 echo $(USER_NAME)
             }
         }
