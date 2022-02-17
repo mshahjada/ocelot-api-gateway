@@ -15,7 +15,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo 'Hello World'
-                echo $(USER_NAME)
+                echo 'User Name ${USER_NAME}'
             }
         }
         stage('Donet Clean') {
